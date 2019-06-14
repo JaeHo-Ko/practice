@@ -1,0 +1,17 @@
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\ProjectNumberGameTest.deps.json
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\ProjectNumberGameTest.runtimeconfig.json
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\ProjectNumberGameTest.runtimeconfig.dev.json
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\ProjectNumberGameTest.dll
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\ProjectNumberGameTest.pdb
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\ProjectNumberGame.dll
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\bin\Debug\netcoreapp2.2\ProjectNumberGame.pdb
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\obj\Debug\netcoreapp2.2\ProjectNumberGameTest.csprojAssemblyReference.cache
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\obj\Debug\netcoreapp2.2\ProjectNumberGameTest.csproj.CoreCompileInputs.cache
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\obj\Debug\netcoreapp2.2\ProjectNumberGameTest.AssemblyInfoInputs.cache
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\obj\Debug\netcoreapp2.2\ProjectNumberGameTest.AssemblyInfo.cs
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\obj\Debug\netcoreapp2.2\ProjectNumberGameTest.csproj.CopyComplete
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\obj\Debug\netcoreapp2.2\ProjectNumberGameTest.dll
+D:\source\practice\ProjectNumberGame\ProjectNumberGameTest\obj\Debug\netcoreapp2.2\ProjectNumberGameTest.pdb
