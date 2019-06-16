@@ -17,7 +17,7 @@ namespace ProjectNumberGame
 
             NumberGame game = new NumberGame();
 
-            game.test1(first_string, second_string);
+            game.NumberGameActiveResult(first_string, second_string);
         }
     }
 }
