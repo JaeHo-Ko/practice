@@ -67,28 +67,28 @@ namespace ProjectNumberGameTest
         }
 
 
-        [TestMethod]
-        public void 배열의_내부를_오름차순으로_변경하였는가_1()
-        {
-            NumberGame game = new NumberGame();
-            int[] arrayToCalculate = new int[] { 6, 4, 5 };
-            int[] resultsToCompare = new int[] { 4, 5, 6 };
+        //[TestMethod]
+        //public void 배열의_내부를_오름차순으로_변경하였는가_1()
+        //{
+        //    NumberGame game = new NumberGame();
+        //    int[] arrayToCalculate = new int[] { 6, 4, 5 };
+        //    int[] resultsToCompare = new int[] { 4, 5, 6 };
 
-            int[] resultToCalculate = game.SortArray(arrayToCalculate);
+        //    int[] resultToCalculate = game.SortArray(arrayToCalculate);
 
-            CollectionAssert.AreEqual(resultsToCompare, resultToCalculate);
-        }
+        //    CollectionAssert.AreEqual(resultsToCompare, resultToCalculate);
+        //}
 
-        [TestMethod]
-        public void 배열의_내부를_오름차순으로_변경하였는가_2()
-        {
-            NumberGame game = new NumberGame();
-            int[] arrayToCalculate = new int[] { 1, 9, 7, 6 };
-            int[] resultsToCompare = new int[] { 1, 6, 7, 9 };
+        //[TestMethod]
+        //public void 배열의_내부를_오름차순으로_변경하였는가_2()
+        //{
+        //    NumberGame game = new NumberGame();
+        //    int[] arrayToCalculate = new int[] { 1, 9, 7, 6 };
+        //    int[] resultsToCompare = new int[] { 1, 6, 7, 9 };
 
-            int[] resultToCalculate = game.SortArray(arrayToCalculate);
+        //    int[] resultToCalculate = game.SortArray(arrayToCalculate);
 
-            CollectionAssert.AreEqual(resultsToCompare, resultToCalculate);
-        }
+        //    CollectionAssert.AreEqual(resultsToCompare, resultToCalculate);
+        //}
     }
 }
