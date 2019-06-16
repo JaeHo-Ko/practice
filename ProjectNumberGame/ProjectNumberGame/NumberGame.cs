@@ -26,24 +26,26 @@ namespace ProjectNumberGame
         }
 
         // 입력받은 배열을 오름차순으로 변경
-        public int[] SortArray(int[] arrayValue)
-        {
-            int temp;
+        //public int[] SortArray(int[] arrayValue)
+        //{
+        //    int temp;
 
-            for (int i = 0; i < arrayValue.Length; i++)
-            {
-                for (int k = i + 1; k < arrayValue.Length; k++)
-                {
-                    if (arrayValue[i] > arrayValue[k])
-                    {
-                        temp = arrayValue[i];
-                        arrayValue[i] = arrayValue[k];
-                        arrayValue[k] = temp;
-                    }
-                }
-            }
-            return arrayValue;
-        }        
+        //    for (int i = 0; i < arrayValue.Length; i++)
+        //    {
+        //        for (int k = i + 1; k < arrayValue.Length; k++)
+        //        {
+        //            if (arrayValue[i] > arrayValue[k])
+        //            {
+        //                temp = arrayValue[i];
+        //                arrayValue[i] = arrayValue[k];
+        //                arrayValue[k] = temp;
+        //            }
+        //        }
+        //        //Console.Write(arrayValue[i]);
+        //    }
+
+        //    return arrayValue;
+        //}        
 
         // 배열값을 비교하여 승점을 부여(단 B의 최대값을 A의 최대값과 묶어서 날린다)
         public int CompareToArrays(int[] first_array, int[] second_array)
@@ -57,9 +59,10 @@ namespace ProjectNumberGame
                     if(aValue < bValue)
                     {
                         result++;
+                        int valueIndex = Array.IndexOf(second_array, bValue);
+                        second_array = second_array.Where((val,idx) => idx != valueIndex).ToArray();
                         break;
                     }
-                    second_array = second_array.Where(val => val != bValue).ToArray();
                 }
             }
 
@@ -82,7 +85,7 @@ namespace ProjectNumberGame
         //    Console.WriteLine($"B팀의 승점은 {result}입니다");
         //}
 
-        // 테스트
+        // 결과 성공
         public void NumberGameActiveResult(string first_string, string second_string)
         {
             int result;
@@ -93,7 +96,8 @@ namespace ProjectNumberGame
             if (first_array.Length != second_array.Length)
                 throw new NotImplementedException();
 
-            result = CompareToArrays(first_array, SortArray(second_array));
+            //result = CompareToArrays(first_array, SortArray(second_array));
+            result = CompareToArrays(first_array, second_array);
 
             Console.WriteLine($"B팀의 승점은 {result}입니다");
         }
