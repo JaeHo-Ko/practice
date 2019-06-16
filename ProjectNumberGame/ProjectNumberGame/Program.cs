@@ -6,10 +6,17 @@ namespace ProjectNumberGame
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            // 인원은 2N, 팀은 2팀, 각팀인원은 N / 즉. 입력받을건 회사의 총 사원수(총 팀원수는 20만 이하)
-            // 
-            //NumberGame game = new NumberGame();
+            int[] aTeam = { 5, 1, 3, 7 };
+            int[] bTeam = { 2, 6, 2, 8 };
+            int result = 0;
+
+            for (int i = 0; i < aTeam.Length; i++)
+            {
+                if (aTeam[i] < bTeam[i])
+                    result++;
+            }
+            Console.WriteLine(result);
         }
     }
 }
+

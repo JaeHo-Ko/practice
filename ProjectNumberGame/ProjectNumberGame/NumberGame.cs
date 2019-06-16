@@ -1,23 +1,33 @@
 ﻿using System;
+using System.Linq;
 
 namespace ProjectNumberGame
 {
     public class NumberGame
     {
-        private int teamMember;
-
-        public NumberGame(int numberofEmplyees)
+        // 입력받은 스트링값을 빈칸을 제거하고 int배열로 변경
+        public int[] ConvertStringToInt(string stringArray)
         {
-            if(numberofEmplyees < 0 || numberofEmplyees > 100000)
-                throw new NotImplementedException();
-            this.teamMember = numberofEmplyees;
+            int[] intArray = stringArray.Split(" ").Select(int.Parse).ToArray();
 
+            foreach (int value in intArray)
+            {
+                if (value < 0)
+                {
+                    throw new NotImplementedException();
+                }
+            }
+            return intArray;
         }
 
-        public int[] TestArray()
+
+
+        public int[] NumberAssignment()
         {
-            int[] arrTeamMember = new int[teamMember / 2];
-            return arrTeamMember;
+            var a = new int[] { 2, 3 };
+            return a;
         }
+
+       
     }
 }
