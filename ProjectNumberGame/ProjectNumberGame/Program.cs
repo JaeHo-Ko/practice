@@ -6,16 +6,18 @@ namespace ProjectNumberGame
     {
         static void Main(string[] args)
         {
-            int[] aTeam = { 5, 1, 3, 7 };
-            int[] bTeam = { 2, 6, 2, 8 };
-            int result = 0;
+            // 숫자 카드 입력시 띄어쓰기로 구분해주세요.
+            // A팀의 숫자 카드들을 입력해주세요
+            Console.WriteLine("숫자 카드 입력시 띄어쓰기로 구분해주세요.");
+            Console.Write("A팀의 숫자 카드들을 입력해주세요: ");
+            string first_string = Console.ReadLine();
 
-            for (int i = 0; i < aTeam.Length; i++)
-            {
-                if (aTeam[i] < bTeam[i])
-                    result++;
-            }
-            Console.WriteLine(result);
+            Console.Write("B팀의 숫자 카드들을 입력해주세요: ");
+            string second_string = Console.ReadLine();
+
+            NumberGame game = new NumberGame();
+
+            game.test1(first_string, second_string);
         }
     }
 }
