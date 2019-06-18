@@ -39,7 +39,7 @@ namespace ProjectNumberGame
     class CompareDecks
     {
         // 내림차순으로 int배열을 정렬한다.
-        public int[] SortArray(int[] arrayValue)
+        private int[] SortArray(int[] arrayValue)
         {
             int temp;
 
@@ -59,7 +59,7 @@ namespace ProjectNumberGame
         }
 
         // 계산전 에러관련 조건을 적용.
-        public void Constraint(int[] first_array, int[] second_array)
+        private void Constraint(int[] first_array, int[] second_array)
         {
             if (first_array.Length != second_array.Length)
                 throw new ArgumentOutOfRangeException();
