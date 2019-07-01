@@ -1,0 +1,11 @@
+D:\source\practice\LongJump\LongJump\bin\Debug\netcoreapp2.2\LongJump.deps.json
+D:\source\practice\LongJump\LongJump\bin\Debug\netcoreapp2.2\LongJump.runtimeconfig.json
+D:\source\practice\LongJump\LongJump\bin\Debug\netcoreapp2.2\LongJump.runtimeconfig.dev.json
+D:\source\practice\LongJump\LongJump\bin\Debug\netcoreapp2.2\LongJump.dll
+D:\source\practice\LongJump\LongJump\bin\Debug\netcoreapp2.2\LongJump.pdb
+D:\source\practice\LongJump\LongJump\obj\Debug\netcoreapp2.2\LongJump.csprojAssemblyReference.cache
+D:\source\practice\LongJump\LongJump\obj\Debug\netcoreapp2.2\LongJump.csproj.CoreCompileInputs.cache
+D:\source\practice\LongJump\LongJump\obj\Debug\netcoreapp2.2\LongJump.AssemblyInfoInputs.cache
+D:\source\practice\LongJump\LongJump\obj\Debug\netcoreapp2.2\LongJump.AssemblyInfo.cs
+D:\source\practice\LongJump\LongJump\obj\Debug\netcoreapp2.2\LongJump.dll
+D:\source\practice\LongJump\LongJump\obj\Debug\netcoreapp2.2\LongJump.pdb

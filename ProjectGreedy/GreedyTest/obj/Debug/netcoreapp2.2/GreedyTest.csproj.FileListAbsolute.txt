@@ -1,0 +1,17 @@
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\GreedyTest.deps.json
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\GreedyTest.runtimeconfig.json
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\GreedyTest.runtimeconfig.dev.json
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\GreedyTest.dll
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\GreedyTest.pdb
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\ProjectGreedy.dll
+D:\source\practice\ProjectGreedy\GreedyTest\bin\Debug\netcoreapp2.2\ProjectGreedy.pdb
+D:\source\practice\ProjectGreedy\GreedyTest\obj\Debug\netcoreapp2.2\GreedyTest.csprojAssemblyReference.cache
+D:\source\practice\ProjectGreedy\GreedyTest\obj\Debug\netcoreapp2.2\GreedyTest.csproj.CoreCompileInputs.cache
+D:\source\practice\ProjectGreedy\GreedyTest\obj\Debug\netcoreapp2.2\GreedyTest.AssemblyInfoInputs.cache
+D:\source\practice\ProjectGreedy\GreedyTest\obj\Debug\netcoreapp2.2\GreedyTest.AssemblyInfo.cs
+D:\source\practice\ProjectGreedy\GreedyTest\obj\Debug\netcoreapp2.2\GreedyTest.csproj.CopyComplete
+D:\source\practice\ProjectGreedy\GreedyTest\obj\Debug\netcoreapp2.2\GreedyTest.dll
+D:\source\practice\ProjectGreedy\GreedyTest\obj\Debug\netcoreapp2.2\GreedyTest.pdb

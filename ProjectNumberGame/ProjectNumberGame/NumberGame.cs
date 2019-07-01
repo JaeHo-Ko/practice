@@ -71,25 +71,25 @@ namespace ProjectNumberGame
         // 승점구하기
         public void CalculateVictoryPoint(int[] first_array, int[] second_array)
         {
-            Constraint(first_array, second_array);
-            SortArray(first_array);
-            SortArray(second_array);
+            //Constraint(first_array, second_array);
+            //SortArray(first_array);
+            //SortArray(second_array);
 
             int result = 0;
 
-            foreach (int aValue in first_array)
-            {
-                foreach (int bValue in second_array)
-                {
-                    if (aValue < bValue)
-                    {
-                        result++;
-                        int valueIndex = Array.IndexOf(second_array, bValue); // second_array배열에서 bValue의 객체를 검색. 처음 검색된 개체의 인덱스를 반환
-                        second_array = second_array.Where((val, idx) => idx != valueIndex).ToArray();
-                        break;
-                    }
-                }
-            }
+            //foreach (int aValue in first_array)
+            //{
+            //    foreach (int bValue in second_array)
+            //    {
+            //        if (aValue < bValue)
+            //        {
+            //            result++;
+            //            int valueIndex = Array.IndexOf(second_array, bValue); // second_array배열에서 bValue의 객체를 검색. 처음 검색된 개체의 인덱스를 반환
+            //            second_array = second_array.Where((val, idx) => idx != valueIndex).ToArray();
+            //            break;
+            //        }
+            //    }
+            //}
             Console.WriteLine(result);
         }
     }
