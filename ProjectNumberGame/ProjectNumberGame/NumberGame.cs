@@ -16,6 +16,7 @@ namespace ProjectNumberGame
             this._arr1 = (int[])a.Clone();
             this._arr2 = (int[])b.Clone();
         }
+
         // string
         public CardDeck(string a, string b)
         {
@@ -25,6 +26,7 @@ namespace ProjectNumberGame
             this._arr1 = (int[])_a.Clone();
             this._arr2 = (int[])_b.Clone(); ;
         }
+
         // List<int>
         public CardDeck(List<int> a, List<int> b)
         {
@@ -39,23 +41,10 @@ namespace ProjectNumberGame
     class CompareDecks
     {
         // 내림차순으로 int배열을 정렬한다.
-        private int[] SortArray(int[] arrayValue)
+        private void SortArray(int[] arrayValue)
         {
-            int temp;
-
-            for (int i = 0; i < arrayValue.Length; i++)
-            {
-                for (int k = i + 1; k < arrayValue.Length; k++)
-                {
-                    if (arrayValue[i] < arrayValue[k])
-                    {
-                        temp = arrayValue[i];
-                        arrayValue[i] = arrayValue[k];
-                        arrayValue[k] = temp;
-                    }
-                }
-            }
-            return arrayValue;
+            Array.Sort(arrayValue);
+            Array.Reverse(arrayValue);
         }
 
         // 계산전 에러관련 조건을 적용.
@@ -71,23 +60,63 @@ namespace ProjectNumberGame
         // 승점구하기
         public void CalculateVictoryPoint(int[] first_array, int[] second_array)
         {
-            //Constraint(first_array, second_array);
-            //SortArray(first_array);
-            //SortArray(second_array);
+            Constraint(first_array, second_array);
+            SortArray(first_array);
+            SortArray(second_array);
 
             int result = 0;
 
-            //foreach (int aValue in first_array)
+            //List<int> test = second_array.ToList();
+            //test.OrderByDescending(i => i);
+
+            //for(int i = 0; i< first_array.Length; i++)
             //{
-            //    foreach (int bValue in second_array)
+            //    for(int k = 0; k<second_array.Length; k++)
             //    {
-            //        if (aValue < bValue)
+            //        if(first_array[i] >= second_array[k])
             //        {
-            //            result++;
-            //            int valueIndex = Array.IndexOf(second_array, bValue); // second_array배열에서 bValue의 객체를 검색. 처음 검색된 개체의 인덱스를 반환
-            //            second_array = second_array.Where((val, idx) => idx != valueIndex).ToArray();
+            //            Console.WriteLine("1");
             //            break;
             //        }
+
+            //        else if(first_array[i] < second_array[k])
+            //        {
+            //            result++;
+            //            Console.WriteLine("2");
+            //            break;
+
+            //        }
+            //    }
+            //}
+
+            int i = 0;
+            int j = 0;
+
+            while (i < first_array.Length)
+            {
+                if(first_array[i] >= second_array[j])
+                {
+                    i++;
+                }
+                else if(first_array[i] < second_array[j])
+                {
+                    result++;
+                    i++;
+                    j++;
+                }
+            }
+
+            //4 3 2 1
+            //3 3 1 0
+
+            //}
+            //foreach (int aValue in first_array)
+            //{
+            //    if(aValue < test.Max())
+            //    {
+            //        result++;
+            //        test.Remove(test.Max());
+            //        continue;
             //    }
             //}
             Console.WriteLine(result);
