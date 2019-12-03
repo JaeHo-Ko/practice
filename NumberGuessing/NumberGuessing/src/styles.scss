@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    font-family: sans-serif;
+}
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.common-button {
+    padding: 4px 8px;
+    border-style: none;
+    color: #ffffff;
+    border: 1px solid #888;
+    background-color: transparent;
+    margin-left: 4px;
+}
+
+.resetSubmit {
+    background-color: #e3392d;
+}
+
+.guessSubmit {
+    background-color: #3d4149;
+}
+
+.guess-record {
+    padding: 2px 4px;
+}
+
+.lastResult {
+    background-color: red;
+    color: white;
+    padding: 3px;
+}
+
+.successAnswer {
+    background-color: green;
+}
+
+.text-center {
+    text-align: center;
+}
